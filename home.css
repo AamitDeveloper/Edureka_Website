@@ -1,0 +1,16 @@
+#coupon{
+    height:50px;
+    width:80px;
+    background-color:gray;
+    z-index:100;
+    margin-left:20%;
+    visibility: hidden;
+    position: absolute;
+    margin-top: -35%;   
+    
+}
+
+#main{
+    background-color:orange;
+    height:800px;
+}

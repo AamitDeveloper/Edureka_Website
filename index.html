@@ -1,16 +1,18 @@
 <html>
     <head>
         <title>Edureka</title>
+        <link href="home.css" rel="stylesheet"/>
+        <script src="home.js"></script>
        
     </head>
     <body>
         <header>
             
                 <h1>edureka!</h1>
-                <!-- Load icon library -->
-<link rel="stylesheet" href="Search.css">
+             
 
-<!-- The form -->
+
+
 <form class="example" action="action_page.php">
   <input type="text" placeholder="Enter Course Category or keyword" name="search">
   <button type="submit"><i class="fa fa-search"></i></button>
@@ -41,5 +43,12 @@
                 
             
         </header>
+        <div id="coupon">
+            <button onClick="closeCoupon()">&times;</button>
+            <img src="coupon.png" alt="coupon" height="300px"/>
+        </div>
+        <script>
+            window.onload = loadCoupon()
+        </script>
     </body>
 </html>
